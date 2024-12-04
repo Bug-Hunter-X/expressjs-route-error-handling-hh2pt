@@ -1,0 +1,2 @@
+# Express.js Error Handling Bug
+This repository demonstrates a common bug in Express.js applications related to inconsistent and incomplete error handling.  The code includes two routes that handle requests for users.  One route fetches a user by ID and correctly handles the case where the user is not found; however, the other route, fetching all users, has inconsistent error handling, improperly using 500 status code for empty result set.
